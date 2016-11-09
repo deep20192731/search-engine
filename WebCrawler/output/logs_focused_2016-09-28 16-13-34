@@ -1,0 +1,37 @@
+URL	TimeOfCrawl	Page-Size	Return-Code	HarvestRate
+http://roman-emperors.org/impindex.htm	2016-09-28 16-10-39	34112	200	100.0
+http://www.ancient.eu/Roman_Emperor/	2016-09-28 16-10-40	112808	200	100.0
+http://www.roman-emperors.org/	2016-09-28 16-10-41	7609	200	100.0
+https://en.wikipedia.org/wiki/Holy_Roman_Emperor	2016-09-28 16-10-44	176694	200	100.0
+https://en.wikipedia.org/wiki/Holy_Roman_Empire	2016-09-28 16-10-47	306009	200	100.0
+https://en.wikipedia.org/wiki/List_of_Roman_emperors	2016-09-28 16-10-51	359571	200	100.0
+https://en.wikipedia.org/wiki/Roman_emperor	2016-09-28 16-10-53	188278	200	100.0
+https://www.britannica.com/biography/Augustus-Roman-emperor	2016-09-28 16-10-56	144537	200	100.0
+http://www.agiasofia.com/emperors/conpaleo.html	2016-09-28 16-10-58	38865	200	100.0
+http://www.apkmonk.com/app/com.do_apps.catalog_96/	2016-09-28 16-10-58	Error	ErrorCode	100.0
+http://www.classicsunveiled.com/romeh/html/rulers.html	2016-09-28 16-10-59	38990	200	100.0
+http://www.unrv.com/	2016-09-28 16-11-13	41617	200	100.0
+https://ang.wikipedia.org/wiki/Rōmānisc_Cāsere	2016-09-28 16-11-14	30742	200	91.6666666667
+https://ar.wikipedia.org/wiki/إمبراطور_روماني	2016-09-28 16-11-15	131201	200	84.6153846154
+https://ast.wikipedia.org/wiki/Emperador_romanu	2016-09-28 16-11-16	34161	200	78.5714285714
+https://bcl.wikipedia.org/wiki/Emperador_Romano	2016-09-28 16-11-20	30336	200	73.3333333333
+https://books.google.co.uk/books?id=gzOXLGbIIYwC&pg=PA279&dq="The+majority+of+both+writers+and+the+ordinary+population+of+the+Roman"&hl=en&sa=X&ei=gRBJVZ2TFojZarTNgMgF&ved=0CBwQ6AEwAA#v=onepage&q="The majority of both writers and the ordinary population of the Roman"&f=false	2016-09-28 16-11-20	Error	ErrorCode	73.3333333333
+https://books.google.com/books?id=9il6P3TPj-AC&pg=PA147	2016-09-28 16-11-21	Error	ErrorCode	73.3333333333
+http://ahe.uservoice.com/forums/250287-general-feedback	2016-09-28 16-11-21	Error	ErrorCode	73.3333333333
+http://ahencyclopedia.tumblr.com/	2016-09-28 16-11-23	216217	200	75.0
+http://creativecommons.org/licenses/by-nc-sa/3.0/	2016-09-28 16-11-24	Error	ErrorCode	75.0
+http://goo.gl/4USh1A?utm_source=AHE&utm_medium=Logo&utm_campaign=AHE Footer	2016-09-28 16-11-24	Error	ErrorCode	75.0
+http://openeducationeuropa.eu/en/directory/Ancient-History-Encyclopedia?utm_source=AHE&utm_medium=Logo&utm_campaign=AHE Footer	2016-09-28 16-11-25	Error	ErrorCode	75.0
+http://pastpreservers.com/?utm_source=AHE&utm_medium=Logo&utm_campaign=AHE Footer	2016-09-28 16-11-29	40120	200	70.5882352941
+http://pelagios-project.blogspot.co.uk/?utm_source=AHE&utm_medium=Logo&utm_campaign=AHE Footer	2016-09-28 16-11-29	Error	ErrorCode	70.5882352941
+http://planetknowledge.tv/?utm_source=AHE&utm_medium=Logo&utm_campaign=AHE Footer	2016-09-28 16-11-30	Error	ErrorCode	70.5882352941
+http://shop.ancient.eu/collections	2016-09-28 16-11-30	21145	200	66.6666666667
+http://shop.ancient.eu/collections?utm_source=ahe&utm_medium=banner&utm_campaign=blue-art-print	2016-09-28 16-13-19	21145	200	63.1578947368
+http://catalogue.bnf.fr/ark:/12148/cb119892069	2016-09-28 16-13-25	37617	200	65.0
+http://d-nb.info/gnd/2035457-5	2016-09-28 16-13-34	33628	200	61.9047619048
+
+
+
+Statistics of the run
+Total Files	Total Time(minutes)	Total Size	Total Error Links
+34	2.93928333124	2500598	9

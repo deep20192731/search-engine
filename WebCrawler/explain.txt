@@ -1,0 +1,26 @@
+Program follows the flow below:
+1) Gets the Input Query from user
+2) Gets 10(configurable) seed-pages from Bing Search
+3) We insert all seed-pages to Queue(SimpleQueueWithDictionary for BFS and PriorityQueueWithDictionary for Focused) with same priority
+4) Now we start dequeing from the queue until the queue is empty or totalCrawledPages >= threshold
+5) For each dequeued URL we do the following:
+	a) See if we are allowed to crawl the page i.e. if robots.txt is set to not crawl for our agent
+	b) If allowed, then open the URL
+	c) If MIME-TYPE = text/html and response code = 200. PROCEED
+	d) Extract all links and anchor-texts from the HTML
+	e) Parse this list of links by following below rules:
+		. Discard if the link has 'CGI' word
+		. Discard if link is a relative URL
+		. Discard if extension is one of the IGNORED_EXTENSIONS(provided)
+	f) Parse all the text from HTML
+	g) Calculate Page Relevance Score using Cosine Similarity between htmlText and query
+	h) If Focused Strategy, see below:
+		. Calculate Cosine Similarity between anchor text and query
+		. Combine page-relevance and link-relevance to get link-promise. 
+		  Use 0.7*page-relevance + 0.3*link-relevance(thresholds found empirically)
+	i) Put in appropriate queue using the promise calculated.
+	j) Also, to limit too many links to be crawled from same page, we limit that to 10(configurable)
+	   For BFS, first 10 links out of all possible set of links from that page
+	   For Focused, top(promise) 10 links out of all possible set of links from that page
+6) Dump all output once to the output-file. We accumulate outputs in a buffer and then at the end dump everything
+7) Dump statistics to the output-file
